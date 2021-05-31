@@ -16,13 +16,53 @@ output:
 
 Dies ist meine persoenliche Linksammlung zu Introversion. Sie ist vollkommen subjektiv und erhebt keinen Anspruch auf Repraesentativitaet, Vollstaendigkeit, Wissenschaftlichkeit, etc.
 
-Ich kontrolliere die Links nicht regelmaessig, einige koennen also ueber die Zeit ins Leere fuehren. 
-
 # Links zu Medienberichten
 
+Ich kontrolliere die Links nicht regelmaessig, einige koennen also ueber die Zeit ins Leere fuehren.
 
-# Youtube
+```{r, include=TRUE, echo=FALSE}
+library(knitr)
 
+tab <- data.frame(matrix("", ncol = 4, nrow = 1), stringsAsFactors = FALSE)
+colnames(tab) <- c("Titel", "Link", "Kommentar", "Interessante Zitate")
 
-# Literature
+tab[1, ] <- c("Definition Wikipedia", "[link](https://de.wikipedia.org/wiki/Introversion_und_Extraversion)", "", "")
+tab[2, ] <- c("Introversion – die stille Kraft", "[link](https://www.css.ch/de/firmenkunden/angebote/betriebliche-gesundheit/introversion.html)", "CSS Krankenkasse", "Besonders in Gruppen halten sie sich gerne im Hintergrund. Dies führt dazu, dass Introversion häufig mit Schüchternheit verwechselt wird. Dies ist aber ein Irrtum, da introvertierte Menschen nicht zwingend schüchtern sind. ... Man schätzt heute, dass rund 25% der Menschen eher introvertiert und 75% extravertiert veranlagt sind. ... Das Gehirn von introvertierten Menschen nimmt äussere Reize stärker wahr. Somit kann es schneller zu einer Reizüberflutung beispielsweise durch Geräusche, Licht oder visuelle Eindrücke kommen.")
+tab[3, ] <-  c("Introversion: Diese 7 Eigenschaften haben Sie, wenn Sie introvertiert sind", "[link](https://praxistipps.focus.de/introversion-diese-7-eigenschaften-haben-sie-wenn-sie-introvertiert-sind_110213)", "", "Fühlen Sie sich ausgelaugt, nachdem Sie von einer Veranstaltung mit einer großen Anzahl von Personen zurückkommen, ist das bereits ein erstes Indiz für Introvertiertheit. Auch wenn Sie mit engen Freunden interagieren, spüren Sie hinterher das Bedürfnis nach einem ruhigen Rückzugsort. ... Introvertierte präferieren wenige, intensiv gepflegte Freundschaften, gegenüber einem großen Freundeskreis. Gerade weil das Interagieren mit anderen für Introvertierte ein Kraftakt ist, gehen Sie bei der Auswahl Ihres sozialen Umfelds viel selektiver vor.")
+tab[4, ] <-  c("Introversion und Minimalismus: eine Liebesgeschichte", "[link](https://minimalismus21.de/2020/11/01/introversion-und-minimalismus/)", "", "Introvertierte Menschen verarbeiten Reize anders, weshalb sie von ihnen auch schneller überansprucht werden. Im Umkehrschluss tanken Introvertierte die verlorene Energie wieder auf, wenn sie alleine oder mit wenigen Menschen zusammen sind. ... Introvertierte reagieren empfindlicher auf Umweltreize, Veränderungen und soziale Kontakte. An den Tagen, an denen die Pausen zwischen diesen Eindrücken ausbleiben, wird alles schnell zu viel.")
+tab[5, ] <-  c("Introversion ist kein Fähigkeitsmakel, sondern eine Präferenz", "[link](https://www.deutschlandfunknova.de/beitrag/psychologin-ueber-introvertierte-menschen-es-gibt-ein-bisschen-das-stereotyp-alle-sollten-extravertiert-sein)", "", "")
+tab[6, ] <-  c("Test: Wie introvertiert sind Sie?", "[link](https://www.srf.ch/kultur/gesellschaft-religion/test-wie-introvertiert-sind-sie)", "Links zu weiteren SRF Sendungen zum Thema", "")
+tab[7, ] <-  c("Wie introvertierte Kinder ticken", "[link](https://www.wireltern.ch/artikel/wie-introvertierte-kinder-ticken-1119)", "", "")
+tab[8, ] <-  c("Wenn Geburtstagsfeste zur Qual werden", "[link](https://www.srf.ch/kultur/gesellschaft-religion/wenn-geburtstagsfeste-zur-qual-werden)", "Interview mit jemandem, der die Gefühlslage beschreibt", "Bei diesen Geburtstagseinladungen denke ich: Muss ich mir das jetzt antun? ... Es ist wichtig in unserer Welt, dass es Leute gibt, die gut zuhören können. Und das können Introvertierte: zuhören, wahrnehmen, spüren. Das ist eine Stärke. Eine andere ist das überlegte Handeln. Introvertierte sind Leute, die erst überlegen und dann tun. ... Ausserdem kann ich konzentriert arbeiten und gut mit mir allein sein. Auch das ist eine Qualität: Ich kann mich im Alleinsein erholen. Das gibt mir ein Stück Unabhängigkeit und Freiheit.")
+tab[9, ] <-  c("Nach Meetings flüchtete ich in ein leer stehendes Büro", "[link](https://www.zeit.de/arbeit/2019-01/introvertierte-job-smalltalk-telefonate-arbeitsleben-tipps/komplettansicht)", "", "Im Arbeitsleben brauchen Introvertierte drei Dinge, um richtig gut zu sein: Zeit, Raum und Ruhe. ... Introvertierte fühlen sich nicht unbedingt befangen in Gesellschaft – aber sie brauchen Rückzugsmöglichkeiten, um sich davon erholen zu können. ... Introvertierte sind nicht automatisch Eigenbrötler. Sie tauschen sich gern aus – am liebsten unter vier Augen oder im kleinen Kreis. Da sie nur begrenzte Ressourcen für menschlichen Kontakt haben, haushalten sie eben damit. ... Denn noch stressiger als viele Menschen sind viele fremde Menschen. ... Es gibt noch etwas, worin Introvertierte ziemlich schlecht sind: Smalltalk. ... Mein Mittel dagegen: den Smalltalk weglassen und einfach mit der Tür ins Haus fallen. Das irritiert einige Gesprächspartner –kann aber manchmal auch von Vorteil sein. ... Womit kann man Introvertierte also kriegen? Mit Ideen und Konzepten. Wenn sie für eine Sache wirklich brennen, laufen sie zur Höchstform auf. Deshalb sind Intros oft in Feldern zu finden, wo sie sich ganz ihrem Thema widmen können: zum Beispiel Wissenschaft oder Kunst. ... Alles ist besser, als herumzustehen und sich oberflächlich mit Fremden zu unterhalten. ... Durch ihre Neigung, viel über die Welt nachzudenken und zu philosophieren, sind Introvertierte oft moralische Menschen, denen ihre Werte besonders wichtig sind. ... Die vielleicht überraschendste Nachricht: Introvertierte sind begabte Führungskräfte.")
+tab[10, ] <- c("Die 8 geheimen Stärken von introvertierten Menschen", "[link](https://intropower.de/8-staerken-introvertiert)", "", "Kreativität muss nicht zwingend etwas mit Kunst oder Musik zu tun haben. Wir sind kreativ, wenn wir etwas Neues erschaffen oder erdenken. Und wenn es um das „Erdenken“ geht, sind Introvertierte ganz vorne mit dabei. ... Denn wir fühlen uns in unserer eigenen Gedankenwelt besonders wohl. Wir sind es gewohnt, viel nachzudenken, zu analysieren und zu reflektieren. ... Wir introvertierten Menschen sind von Natur aus gute Beobachter. Wir nehmen uns Zeit, die aufgenommenen Informationen in einem Gespräch zu verarbeiten. Dadurch fällt es uns leicht, das Wesentliche aus den Worten und der Körpersprache des anderen herauszufiltern. Und wir können in unseren Antworten direkt darauf eingehen.")
+tab[11, ] <- c("Introvertiert? Sie werden völlig zu unrecht unterschätzt!", "[link](https://karrierebibel.de/introvertiert/)", "", "Informationen einfach hinnehmen und akzeptieren? Nicht bei einem Introvertierten. Veränderungen oder neue Impulse werden zunächst einmal hinterfragt und kritisch überdacht. ... Der Zweck ist jedoch nicht, die Veränderungen aufzuhalten, sondern diese zu verbessern und Fehler aufzudecken. So bieten Introvertierte in vielen Fällen einen zweiten Blickwinkel, der nicht unbeachtet bleiben sollte.")
+tab[12, ] <- c("11 Wahrheiten über Introvertierte", "[link](https://www.businessladys.de/11-wahrheiten-ueber-introvertierte/)", "Besprechung/Zsf des Buchs von Susan Cain (siehe unten)", "Überhaupt sind überraschend viele Menschen, die auf der Bühne stehen, introvertiert: Schauspieler, Musiker, Comedians, Lehrer, Wissenschaftler. Sie können sich für eine gewisse Zeit „anknipsen“, haben auch wirklich Spaß dabei, brauchen dann aber wieder dringend und ausreichend alone time, um sich zu regenerieren. Ich würde es mal so definieren: Die Extros gehen hinterher noch mit ihren Fans einen trinken, die Intros verschwinden grußlos durch die Hintertür. ... Intros brauchen Rückzugsmöglichkeiten. Und zwar wie die Luft zum Atmen. Nach meiner „Diagnose“ wurde mir klar, warum ich auf den meisten Partys irgendwo rumstand (oder -lag) und mir wünschte, ich wäre zu Hause auf dem Sofa, mit einem guten Buch und einer Tasse Tee. Denn das ist der natürliche Habitat des Intros. (Und natürlich: der Wald, die Berge.)")
+
+kable(tab, align = "llll")
+```
+
+# Videos
+
+```{r, include=TRUE, echo=FALSE}
+library(knitr)
+
+tab <- data.frame(matrix("", ncol = 3, nrow = 1), stringsAsFactors = FALSE)
+colnames(tab) <- c("Medium", "Link", "Kommentar")
+
+tab[1, ] <- c("Susan Cain", "[link](https://www.youtube.com/watch?v=c0KYU2j0TM4)", "Ted Talk über Introversion, > 12 Mio angeschaut")
+tab[2, ] <- c("Linkedin", "[link](https://www.linkedin.com/posts/simon-sinek_how-to-leverage-being-an-introvert-activity-6795204332234006528-LaGg/)", "Kurzes Video von Simon Sinek, das Introversion illustriert")
+
+kable(tab, align = "llll")
+```
+
+# Introversion und Hochsensibilitaet
+
+[paper](http://hsperson.com/pdf/JPSP_Aron_and_Aron_97_Sensitivity_vs_I_and_N.pdf)
+
+Wird auch im obigen Artikel "11 Wahrheiten über Introvertierte" diskutiert (Wahrheit 10).
+
+# Literatur
+
+[Susan Cain: Quiet: The Power of Introverts in a World That Can't Stop Talking](https://www.amazon.de/dp/0141029196/ref=pe_3044161_185740101_TE_item)
 
