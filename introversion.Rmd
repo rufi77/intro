@@ -1,0 +1,28 @@
+---
+title: "Introversion: Linksammlung"
+author: "Kaspar Rufibach"
+date: "Letzte Aenderung: `r format(Sys.time(), '%dth %B %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+
+# Hintergrund
+
+Dies ist meine persoenliche Linksammlung zu Introversion. Sie ist vollkommen subjektiv und erhebt keinen Anspruch auf Repraesentativitaet, Vollstaendigkeit, Wissenschaftlichkeit, etc.
+
+Ich kontrolliere die Links nicht regelmaessig, einige koennen also ueber die Zeit ins Leere fuehren. 
+
+# Links zu Medienberichten
+
+
+# Youtube
+
+
+# Literature
+
