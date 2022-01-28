@@ -57,6 +57,23 @@ tab[2, ] <- c("Linkedin", "[link](https://www.linkedin.com/posts/simon-sinek_how
 kable(tab, align = "llll")
 ```
 
+# Introversion in Paarbeziehungen
+
+```{r, include=TRUE, echo=FALSE}
+library(knitr)
+
+tab <- data.frame(matrix("", ncol = 3, nrow = 1), stringsAsFactors = FALSE)
+colnames(tab) <- c("Medium", "Link", "Kommentar")
+
+tab[1, ] <- c("introvertiert.org", "[link](https://www.introvertiert.org/warum-sich-extrovertierte-und-introvertierte-so-gut-erganzen)", "Warum sich Extrovertierte und Introvertierte so gut ergänzen")
+tab[2, ] <- c("", "[link](https://www.ipersonic.de/blog_files/Passen-introvertierte-und-extrovertierte-Partner-zusammen.html)", "Passen introvertierte und extrovertierte Partner zusammen?")
+tab[3, ] <- c("", "[link](https://www.muenchen-heilpraktiker-psychotherapie.de/blog-2/liebe-sex-partnerschaft/introvertierte-partner-staerken-partnerschaft.html)", "Beziehung mit einem Introvertierten: Welche Stärken stille Menschen in die Partnerschaft einbringen")
+tab[4, ] <- c("Focus online", "[link](https://www.focus.de/gesundheit/gesundleben/partnerschaft/menschen-lieben-unterschiedlich-psychotherapeut-zeigt-so-unterschiedlich-sind-introvertierte-und-extravertierte-partner_id_20913084.html)", "Sie sind introvertiert, Ihr Partner extravertiert? Mit Paar-Wörterbuch klappt Beziehung")
+tab[5, ] <- c("Liebestipps", "[link](https://liebestipps.com/beziehung-zwischen-introvertierten-extrovertierten/)", "Beziehung zwischen Introvertierten und Extrovertierten – funktioniert das?")
+
+kable(tab, align = "llll")
+```
+
 # Introversion und Hochsensibilitaet
 
 [paper](http://hsperson.com/pdf/JPSP_Aron_and_Aron_97_Sensitivity_vs_I_and_N.pdf)
