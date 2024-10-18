@@ -80,6 +80,13 @@ kable(tab, align = "llll")
 
 Wird auch im obigen Artikel "11 Wahrheiten über Introvertierte" diskutiert (Wahrheit 10).
 
+# Introversion und Autismus
+
+[Webpage 1](https://laconciergepsychologist.com/blog/autism-vs-introversion/)
+
+[Webpage 2](https://anderseitig.de/introvertiert-oder-autistisch/)
+
+
 # Literatur
 
 [Susan Cain: Quiet: The Power of Introverts in a World That Can't Stop Talking](https://www.amazon.de/dp/0141029196/ref=pe_3044161_185740101_TE_item)
